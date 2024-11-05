@@ -1,0 +1,64 @@
+/* Aggiungi questo codice in un file .css e collegalo all'HTML con un link nel <head> */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2b2b2b;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p, li, a {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.container p, .container ol {
+    margin-bottom: 20px;
+}
+
+.container p {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
